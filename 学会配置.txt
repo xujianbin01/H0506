@@ -1,0 +1,13 @@
+Git初始配置
+
+第一次使用 Git 的时候，会要求我们配置用户名和邮箱，用于表示开发者的信息（可以随便写，但最好写上自己的）
+
+（可以在任意文件夹路径下配置。）
+```
+git config --global user.name "Your Name" 
+
+git config --global user.email "email@example.com" 
+> 注意命令之间的空格，由于输入错误率过高，建议直接复制
+git config --global user.name "xjb" 
+git config --global user.email "1159205385@qq.com" 
+检查是否配置成功：git config -l
